@@ -51,7 +51,18 @@ namespace SEMANA1
 
         static void ejer4()
         {
+            Console.WriteLine("Ingresar un número decimal: ");
+            double num = double.Parse(Console.ReadLine());
 
+            double raiz = Math.Sqrt(num);
+            double redo = Math.Round(num, 2);
+            double cubo = Math.Pow(num, 3);
+            double cubica = Math.Pow(num, 1 / 3);
+
+            Console.WriteLine("Raíz cuadrada: " + raiz);
+            Console.WriteLine("Redondeado: " + redo);
+            Console.WriteLine("Elevado a 3: " + cubo);
+            Console.WriteLine("Raíz cubica: " + cubica);
         }
 
         static void ejer5()
