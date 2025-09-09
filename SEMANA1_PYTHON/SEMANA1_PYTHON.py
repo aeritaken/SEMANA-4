@@ -27,3 +27,11 @@ print("Raiz cuadrada: ", raiz)
 print("redondeado: ", redo)
 print("al cubo: ", cubo)
 print("raiz cubica: ".cubica)
+
+def ejer5()
+num = input("Ingrese su número: ")
+
+entero = int(num)
+decim = float(num)
+print("Resto: ", (entero%2))
+print("Resto: ", (deci/3))
